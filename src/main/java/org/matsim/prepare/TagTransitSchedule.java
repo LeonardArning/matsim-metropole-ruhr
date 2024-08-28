@@ -35,7 +35,7 @@ import java.net.URL;
 public class TagTransitSchedule {
 
     public static void main(String[] args) {
-        String scheduleFile = "https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/countries/de/metropole-ruhr/metropole-ruhr-v1.0/input/metropole-ruhr-v1.4-transitSchedule.xml.gz";
+        String scheduleFile = "E:/JetBrains/IdeaProjects/matsim-metropole-ruhr/scenarios/metropole-ruhr-v1.0/input/metropole-ruhr-v1.4-transitSchedule.xml.gz";
 
         Scenario scenario = ScenarioUtils.createScenario(ConfigUtils.createConfig());
         new TransitScheduleReader(scenario).readFile(scheduleFile);

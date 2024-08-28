@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE population SYSTEM "http://www.matsim.org/files/dtd/population_v6.dtd">
+
+<population desc="population written from streaming">
+
+	<attributes>
+		<attribute name="coordinateReferenceSystem" class="java.lang.String">EPSG:25832</attribute>
+	</attributes>
+
+
+<!-- ====================================================================== -->
+
+<person id="10">
+		<attributes>
+			<attribute name="MiD:hheink_gr2" class="java.lang.String">8</attribute>
+			<attribute name="MiD:hhgr_gr" class="java.lang.String">4</attribute>
+			<attribute name="age" class="java.lang.Integer">30</attribute>
+			<attribute name="carAvail" class="java.lang.String">always</attribute>
+			<attribute name="income" class="java.lang.Double">1408.25</attribute>
+			<attribute name="sex" class="java.lang.String">m</attribute>
+			<attribute name="sim_ptAbo" class="java.lang.String">none</attribute>
+			<attribute name="subpopulation" class="java.lang.String">person</attribute>
+			<attribute name="vehicles" class="org.matsim.vehicles.PersonVehicles">{"car":"10_car","ride":"10_ride","bike":"10_bike"}</attribute>
+		</attributes>
+		<plan score="113.49162049067635" selected="yes">
+			<activity type="home_54600" x="307562.0" y="5696497.0" end_time="09:15:00" >
+			</activity>
+			<leg mode="walk" dep_time="09:15:00" trav_time="00:00:29">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">car</attribute>
+				</attributes>
+			</leg>
+			<activity type="car interaction" x="307575.6201546179" y="5696461.89218589" max_dur="00:00:00" >
+			</activity>
+			<leg mode="car" dep_time="09:15:29" trav_time="00:38:46">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">car</attribute>
+				</attributes>
+			</leg>
+			<activity type="car interaction" x="336944.9685140448" y="5696043.60582618" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="09:54:15" trav_time="00:00:04">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">car</attribute>
+				</attributes>
+			</leg>
+			<activity type="work_13800" x="336939.0" y="5696045.0" start_time="09:57:00" end_time="13:43:00" >
+			</activity>
+			<leg mode="walk" dep_time="13:43:00" trav_time="00:00:04">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">car</attribute>
+				</attributes>
+			</leg>
+			<activity type="car interaction" x="336944.9685140448" y="5696043.60582618" max_dur="00:00:00" >
+			</activity>
+			<leg mode="car" dep_time="13:43:04" trav_time="00:06:02">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">car</attribute>
+				</attributes>
+			</leg>
+			<activity type="car interaction" x="337225.34051013784" y="5699050.579356631" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="13:49:06" trav_time="00:00:01">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">car</attribute>
+				</attributes>
+			</leg>
+			<activity type="business_8400" x="337225.0" y="5699052.0" start_time="13:53:00" end_time="16:12:00" >
+			</activity>
+			<leg mode="walk" dep_time="16:12:00" trav_time="00:00:01">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">car</attribute>
+				</attributes>
+			</leg>
+			<activity type="car interaction" x="337225.34051013784" y="5699050.579356631" max_dur="00:00:00" >
+			</activity>
+			<leg mode="car" dep_time="16:12:01" trav_time="00:10:24">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">car</attribute>
+				</attributes>
+			</leg>
+			<activity type="car interaction" x="334997.5881527733" y="5702047.216125765" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="16:22:25" trav_time="00:03:51">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">car</attribute>
+				</attributes>
+			</leg>
+			<activity type="business_3600" x="334993.0" y="5702041.0" start_time="16:23:00" end_time="17:26:00" >
+			</activity>
+			<leg mode="walk" dep_time="17:26:00" trav_time="00:01:21">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">car</attribute>
+				</attributes>
+			</leg>
+			<activity type="car interaction" x="334997.5881527733" y="5702047.216125765" max_dur="00:00:00" >
+			</activity>
+			<leg mode="car" dep_time="17:27:21" trav_time="00:23:10">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">car</attribute>
+				</attributes>
+			</leg>
+			<activity type="car interaction" x="307575.6201546179" y="5696461.89218589" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="17:50:31" trav_time="00:00:29">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">car</attribute>
+				</attributes>
+			</leg>
+			<activity type="home_54600" x="307562.0" y="5696497.0" start_time="18:11:00" >
+			</activity>
+		</plan>
+</person>
+<!-- ====================================================================== -->
+
+<person id="1000069">
+		<attributes>
+			<attribute name="MiD:hheink_gr2" class="java.lang.String">2</attribute>
+			<attribute name="MiD:hhgr_gr" class="java.lang.String">1</attribute>
+			<attribute name="age" class="java.lang.Integer">69</attribute>
+			<attribute name="carAvail" class="java.lang.String">always</attribute>
+			<attribute name="income" class="java.lang.Double">770.0</attribute>
+			<attribute name="sex" class="java.lang.String">f</attribute>
+			<attribute name="sim_ptAbo" class="java.lang.String">none</attribute>
+			<attribute name="subpopulation" class="java.lang.String">person</attribute>
+			<attribute name="vehicles" class="org.matsim.vehicles.PersonVehicles">{"car":"1000069_car","ride":"1000069_ride","bike":"1000069_bike"}</attribute>
+		</attributes>
+		<plan score="127.67779625763183" selected="yes">
+			<activity type="home_86400" x="398278.0" y="5716001.0" end_time="14:58:00" >
+			</activity>
+			<leg mode="walk" dep_time="14:58:00" trav_time="00:00:21">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bike</attribute>
+				</attributes>
+			</leg>
+			<activity type="bike interaction" x="398265.27419412805" y="5716024.836576386" max_dur="00:00:00" >
+			</activity>
+			<leg mode="bike" dep_time="14:58:21" trav_time="00:20:04">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bike</attribute>
+				</attributes>
+			</leg>
+			<activity type="bike interaction" x="400742.17269845476" y="5718864.355859517" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="15:18:25" trav_time="00:00:07">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bike</attribute>
+				</attributes>
+			</leg>
+			<activity type="errands_1800" x="400733.0" y="5718868.0" start_time="15:10:00" end_time="15:40:00" >
+			</activity>
+			<leg mode="walk" dep_time="15:40:00" trav_time="00:00:07">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bike</attribute>
+				</attributes>
+			</leg>
+			<activity type="bike interaction" x="400742.17269845476" y="5718864.355859517" max_dur="00:00:00" >
+			</activity>
+			<leg mode="bike" dep_time="15:40:07" trav_time="00:16:18">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bike</attribute>
+				</attributes>
+			</leg>
+			<activity type="bike interaction" x="397536.1096402539" y="5720755.612870312" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="15:56:25" trav_time="00:00:09">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bike</attribute>
+				</attributes>
+			</leg>
+			<activity type="leisure_1800" x="397524.0" y="5720756.0" start_time="15:59:00" end_time="16:29:00" >
+			</activity>
+			<leg mode="walk" dep_time="16:29:00" trav_time="00:00:09">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bike</attribute>
+				</attributes>
+			</leg>
+			<activity type="bike interaction" x="397536.1096402539" y="5720755.612870312" max_dur="00:00:00" >
+			</activity>
+			<leg mode="bike" dep_time="16:29:09" trav_time="00:24:18">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bike</attribute>
+				</attributes>
+			</leg>
+			<activity type="bike interaction" x="398265.27419412805" y="5716024.836576386" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="16:53:27" trav_time="00:00:21">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bike</attribute>
+				</attributes>
+			</leg>
+			<activity type="home_86400" x="398278.0" y="5716001.0" >
+			</activity>
+		</plan>
+</person>
+<!-- ====================================================================== -->
+				
+</population>
+			
